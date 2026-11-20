@@ -1,4 +1,4 @@
-/* Высота футера: 100 + 112 (контент) + 100 = 312px */
+
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0px;
@@ -9,7 +9,6 @@
   align-items: flex-start;
 }
 
-/* Левый блок: логотип и слоган */
 .footer-brand {
   width: 264px;
   margin-right: 120px;
@@ -35,7 +34,6 @@
   margin-top: 16px;
 }
 
-/* Правый блок: заголовок и иконки соцсетей */
 .footer-socials-title {
   font-weight: 500;
   color: #ffffff;
@@ -47,12 +45,11 @@
   gap: 16px;
 }
 
-/* Цвета соцссылок в Footer */
 .social-link-footer {
   background-color: #4d5ae5;
 }
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }

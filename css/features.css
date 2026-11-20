@@ -1,4 +1,4 @@
-/* Высота контента: 112 (иконка) + 8 + 24 (заголовок) + 8 + 72 (текст) = 224px */
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -11,7 +11,6 @@
   width: calc((100% - 72px) / 4);
 }
 
-/* Блок с иконкой: 264x112, рамка 1px внутри блока */
 .features-icon {
   box-sizing: border-box;
   display: flex;
@@ -24,7 +23,6 @@
   border-radius: 4px;
 }
 
-/* Цвет иконки задаётся через color (в спрайте fill: currentColor) */
 .features-icon-svg {
   width: 64px;
   height: 64px;

@@ -1,4 +1,4 @@
-/* Высота карточки: 260 (фото) + 168 (контент) = 428px */
+
 .team-section {
   background-color: #f4f4fd;
 }
@@ -31,9 +31,9 @@
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow:
-    0 1px 3px rgba(46, 47, 66, 0.08),
-    0 1px 0.5px rgba(46, 47, 66, 0.16),
-    0 2px 0.5px rgba(46, 47, 66, 0.08);
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-photo {
@@ -41,7 +41,6 @@
   object-fit: cover;
 }
 
-/* padding 32 + имя 24 + 8 + должность 24 + 8 + соцсети 40 + padding 32 = 168px */
 .team-card-content {
   display: flex;
   flex-direction: column;
@@ -61,7 +60,6 @@
   margin: 0;
 }
 
-/* Цвета соцссылок в Team */
 .social-link-team {
   background-color: #4d5ae5;
 }
