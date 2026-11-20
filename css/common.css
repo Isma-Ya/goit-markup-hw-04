@@ -81,3 +81,31 @@ img {
   clip-path: inset(100%);
   margin: -1px;
 }
+
+/* ===== Social links: общая форма (Team и Footer) ===== */
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Круглый контейнер 40x40, иконка по центру. Цвет иконки = color (fill: currentColor в спрайте) */
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  display: block;
+}
